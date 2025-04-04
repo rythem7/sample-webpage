@@ -19,7 +19,7 @@ function ThemeSwitcher() {
         <option value="synthwave">Synthwave</option>
         <option value="cyberpunk">Cyberpunk</option>
         <option value="valentine">Valentine</option>
-        <option value="halloween">Halloween</option>
+        <option value="cmyk">CMYK</option>
         <option value="forest">Forest</option>
         <option value="aqua">Aqua</option>
         <option value="luxury">Luxury</option>

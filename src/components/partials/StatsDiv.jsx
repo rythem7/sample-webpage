@@ -1,6 +1,6 @@
 function Stats() {
     return (
-      <div className="stats shadow min-h-[10rem] w-full bg-warning/60">
+      <div className="stats shadow-xl min-h-[9rem] w-full bg-primary">
         <div className="stat">
           <div className="stat-figure">
             <svg
@@ -15,9 +15,9 @@ function Stats() {
                 d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
             </svg>
           </div>
-          <div className="stat-title">Total Likes</div>
-          <div className="stat-value text-primary">25.6K</div>
-          <div className="stat-desc">21% more than last month</div>
+          <div className="stat-title text-center text-base-100">Total Likes</div>
+          <div className="stat-value text-center text-secondary">25.6K</div>
+          <div className="stat-desc text-center">21% more than last month</div>
         </div>
 
         <div className="stat">
