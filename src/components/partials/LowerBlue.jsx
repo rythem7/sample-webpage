@@ -1,4 +1,4 @@
-import DeskScreen from '../../../assets/desk_screen.png';
+import DeskScreen from '../../assets/desk_screen.png';
 
 function LowerBlue() {
     return(

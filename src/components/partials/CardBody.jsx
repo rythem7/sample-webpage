@@ -1,17 +1,16 @@
 function CardBody(props) {
     return(
-        <div className="card bg-base-100 w-96 shadow-lg">
+        <div className={`card bg-base-200 w-100 ${props.shadow? props.shadow : null}`} >
             <figure>
                 <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                alt="Shoes" />
+                src={props.imgSrc}
+                alt="Shoes"
+                loading="lazy" />
             </figure>
             <div className="card-body">
                 <h2 className="card-title">{props.title}</h2>
                 <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                {/* <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
-                </div> */}
+                
             </div>
         </div>
     );
