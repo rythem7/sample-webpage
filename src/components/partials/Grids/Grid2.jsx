@@ -1,8 +1,8 @@
 import CardBody from './CardBody';
-import g21 from '../../assets/Grid2/g21.png';
-import g22 from '../../assets/Grid2/g22.png';
-import g23 from '../../assets/Grid2/g23.png';
-import g24 from '../../assets/Grid2/g24.png';
+import g21 from '../../../assets/Grid2/g21.png';
+import g22 from '../../../assets/Grid2/g22.png';
+import g23 from '../../../assets/Grid2/g23.png';
+import g24 from '../../../assets/Grid2/g24.png';
 
 export default function Grid2() {
     return(

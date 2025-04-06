@@ -6,11 +6,12 @@ import BlueBoxWithNav from './components/partials/ContentBox1/BlueBox';
 import YellowBar from './components/partials/StatsDiv';
 import PaperPlaneShadow from './assets/PaperPlaneShadow.svg';
 import Footer from './components/Footer';
-import CardBody from './components/partials/CardBody';
 import LowerBlue from './components/partials/LowerBlue';
-import Grid1 from './components/partials/Grid1';
-import Grid2 from './components/partials/Grid2';
+import Grid1 from './components/partials/Grids/Grid1';
+import Grid2 from './components/partials/Grids/Grid2';
 import Heading from './components/partials/HeadingBase';
+import LowerCard from './components/partials/ContentBox2/LowerCard';
+import FAQ from './components/partials/FAQ';
 
 
 
@@ -25,7 +26,7 @@ function App() {
     // Size for base
     <div className='relative flex flex-col min-h-screen w-screen items-center bg-base-200 px-10 pt-8 pb-0 gap-8'>
 
-      <img src={PaperPlaneShadow} alt="paper plane" className='absolute left-0 top-240 origin-left lg:scale-130 md:scale-90 scale-75 opacity-70' />
+      <img src={PaperPlaneShadow} alt="paper plane" className='absolute left-0 top-260 origin-left lg:scale-130 md:scale-90 scale-75 opacity-70' />
       
       <BlueBoxWithNav />
       
@@ -42,6 +43,14 @@ function App() {
 
       <Grid2 />
 
+      <LowerCard />
+
+      <div className='flex flex-col gap-4 lg:w-300 h-auto rounded-box'>
+        <FAQ />
+        <FAQ />
+        <FAQ />
+        <FAQ />
+      </div>
       <Footer />
       <ThemeSwitcher />
     </div>
