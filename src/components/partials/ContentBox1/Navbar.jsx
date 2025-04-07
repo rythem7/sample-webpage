@@ -9,7 +9,7 @@ const subItem2 = "My Account";
 function NavBar() {
     return(
 
-        <div className="navbar bg-transparent size-full">
+        <div className="navbar bg-transparent size-full pt-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden p-0">
