@@ -1,6 +1,6 @@
 import MainGraphic from './MainGraphic';
 import Cubes from './CubeBoxes';
-
+import lines from '../../../assets/lines.png';
 import NavBar from "./Navbar";
 
 function BlueBoxWithNav() {
@@ -18,13 +18,22 @@ function BlueBoxWithNav() {
                         <MainGraphic />
                     </div>
                     
-                    <div className='flex-1 flex justify-start'>
-                        <div className='prose-3xl'>
-                            <h1 className="text-5xl font-bold">Fun & Engaging Learning</h1>
-                            <h3 className=" text-xl">
-                                AI-driven personalization keeps education exciting and tailored to each child.
-                            </h3>
-                            <button className="mt-4 btn btn-primary lg:btn-wide">Get Started</button>
+                    <div className='flex-1 flex justify-center'>
+                        <div className='flex flex-col gap-[1.5rem]'>
+                            
+                                
+                            <h1 className="font-bold lg:text-6xl xl:text-8xl relative">
+                                Fun & Engaging
+                                <span className='absolute origin-bottom top-0 -right-2 w-12 h-auto mt-2 mr-2 -translate-y-1/2'>
+                                    <img src={lines} alt="lines" />
+                                </span>
+                            </h1>
+                            
+                            <h1 className="font-bold lg:text-6xl xl:text-8xl">Learning</h1>
+                            <h2 className="text-3xl text-bold">
+                                AI-driven personalization keeps education exciting and <br></br>tailored to each child.
+                            </h2>
+                            <button className="mt-4 btn btn-primary btn-wide">Get Started</button>
                         </div>
                     </div>
                 </div>

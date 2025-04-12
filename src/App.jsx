@@ -24,7 +24,7 @@ function App() {
 
   return(
     // Size for base
-    <div className='relative flex flex-col min-h-screen w-screen items-center bg-base-200 px-10 pt-8 pb-0 gap-8'>
+    <div className='font-sans relative flex flex-col min-h-screen w-screen items-center bg-base-200 px-10 pt-8 pb-0 gap-8'>
 
       <img src={PaperPlaneShadow} alt="paper plane" className='absolute left-0 top-260 origin-left lg:scale-130 md:scale-90 scale-75 opacity-70' />
       

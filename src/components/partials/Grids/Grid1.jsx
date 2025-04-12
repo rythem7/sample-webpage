@@ -1,6 +1,6 @@
 import CardBody from "./CardBody";
 import g1 from "../../../assets/Grid1/g1.png";
-import g2 from "../../../assets/Grid1/g2.png";
+import g2 from "../../../assets/Grid1/image10.png";
 import g3 from "../../../assets/Grid1/g3.png";
 import g4 from "../../../assets/Grid1/g4.png";
 function Grid1() {

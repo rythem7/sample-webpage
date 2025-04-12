@@ -28,6 +28,9 @@ export default {
           "50%": { opacity: "0.5" },
         },
       },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [daisyui], // ✅ Correct ESM import for DaisyUI
