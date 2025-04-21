@@ -9,7 +9,7 @@ const subItem2 = "My Account";
 function NavBar() {
     return(
 
-        <div className="navbar bg-transparent size-full pt-5 z-10">
+        <div className="navbar bg-transparent size-full pt-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden p-0">
@@ -17,7 +17,7 @@ function NavBar() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>                        
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content bg-transparent rounded-box z-10 mt-3 w-52 p-2 shadow">
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content bg-transparent rounded-box mt-3 w-52 p-2 shadow">
                         <li><a>{item1}</a></li>
                         <li>
                             <a>{item2}</a>

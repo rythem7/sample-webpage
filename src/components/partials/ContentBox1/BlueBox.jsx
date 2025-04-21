@@ -7,7 +7,7 @@ function BlueBoxWithNav() {
     return(
         <div className="relative flex-3 min-h-[90vh] w-full flex flex-col bg-cover bg-center bg-secondary rounded-box shadow-xl text-primary-content p-5">
             <Cubes />
-            <div>
+            <div className='z-10'>
                 <NavBar />
             </div>
             
