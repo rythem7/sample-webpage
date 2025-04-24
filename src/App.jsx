@@ -29,22 +29,14 @@ function App() {
       <img src={PaperPlaneShadow} alt="paper plane" className='absolute left-0 top-260 origin-left lg:scale-130 md:scale-90 scale-75 opacity-70' />
       
       <BlueBoxWithNav />
-      
-      <YellowBar />
-      
+      <YellowBar />      
       <Heading />
-
       <Grid1 />
-      
-
       <LowerBlue />
       {/* <h1 className='text-primary'>Navi Heading</h1> */}
       <Heading />
-
       <Grid2 />
-
       <LowerCard />
-
       <div className='flex flex-col gap-4 lg:w-300 h-auto rounded-box'>
         <FAQ />
         <FAQ />
